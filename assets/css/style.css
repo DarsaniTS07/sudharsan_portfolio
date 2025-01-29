@@ -73,6 +73,7 @@ body {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
     margin-left: 140px;
+    
   }
   
   
@@ -117,7 +118,7 @@ body {
       margin-right: 0px;
     }
     #header h1 {
-      margin-left: 0px;
+      margin-right: -100px;
     }
     #header img {
       width: 200px;
