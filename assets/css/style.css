@@ -90,6 +90,13 @@ body {
     width: 600px;
     margin-left: 140px;
   }
+  @media (max-width: 992px) {
+    .about-me{
+      width: 400px;
+      margin-right: 40px;
+    }
+  }
+
   #header h1 a, #header h1 a:hover {
     color: #dee2e6;
     line-height: 1;
@@ -102,6 +109,24 @@ body {
     margin-bottom: 20px;
     margin-left: 140px;
     color: #12d640;
+  }
+  @media (max-width: 992px) {
+    #header h2 {
+      margin-left: 0px;
+    }
+    #header h1 {
+      margin-left: 0px;
+    }
+    #header img {
+      width: 200px;
+      height: 200px;
+      right:0px;
+      left: 335px;
+    }
+    #header .social-links {
+      margin-left: 0px;
+      margin-right: 250px;
+    }
   }
   
   #header h2 span {
@@ -118,8 +143,9 @@ body {
     border-radius: 50%;
     position: relative;
     right: 135px;
-    
   }
+  
+
   
   #header .social-links {
     margin-top: 40px;
